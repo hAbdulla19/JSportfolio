@@ -1,0 +1,84 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: darkgreen;
+  }
+  
+  table {
+    width: 1000px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #03C03C;
+    border: 5px solid black;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    font-family: copperplate;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+  
+  }
+  
+  #caption {
+    font-family: Gill Sans, sans-serif;
+    font-size: 35px;
+    margin: 2%;
+    color: white;
+    text-align: center;
+    caption-side: bottom;
+  }
+  
+  img {
+    width: 440px;
+    height: 430px;
+    padding: 10px;
+    border: 3px solid blue;
+    margin: auto;
+    display: block;
+  }
+  
+  ol {
+    text-align: center;
+  }
+
+  ol {
+    text-align: center;
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+  }
+  
+  ol li {
+    display: block; /* Display list items as block elements */
+    margin: 10px 0; /* Adjust vertical spacing between list items */
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+  }
+  
+  ol li:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  h1 {
+    color: white;
+    font-family: Gill Sans, sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin: 2%;
+  }
+  
+  p {
+    text-align: left;
+  }
